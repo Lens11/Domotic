@@ -80,7 +80,6 @@ for i in range (NbMesures ):
     C3.append(( data[3] ))
     T.append(( data[4] ))
     H.append(( data[5] ))
-  
     ### Sauvegarde des données dans un fichier.
     ### Création de la liste à sauvegarder 
     MyTmpString =  data[0] + ";" + data[1] + ";" + data[2] + ";" + data[3] + ";" + data[4] + ";" + data[5] "\n"
@@ -113,7 +112,6 @@ for i in range (NbMesures ):
     
     plt.draw() 
     plt.pause(1)
-  
     
 print ( "End mesures..." )    
 plt.ioff() # mode interaction off
